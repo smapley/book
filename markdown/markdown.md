@@ -1,47 +1,120 @@
 #Markdown语法
-##标题
-- Code
-```
-	#一级标题
-	##二级标题
-```
-- View  
-![](https://github.com/smapley/book/blob/master/markdown/image/markdown_title1.png?raw=true)
+##一、标题
 
-##分级标题
-- Code
+###1.用`#`标记  
+**代码**  
 ```
-	一级标题
-	====
-	二级标题
-	----
+#一级标题  
+##二级标题
 ```
-- View  
-![](https://github.com/smapley/book/blob/master/markdown/image/markdown_title1.png?raw=true)
+**效果**
+> 
+#一级标题
+##二级标题
+
+###2.用=和-标记
+**代码**
+```
+一级标题
+====
+二级标题
+----
+```
+**效果**
+> 
+一级标题
+====
+二级标题
+----
+  
+##三、引用
+**代码**
+```
+> 单行引用 
+
+> 多行引用
+> 多行应用
+> 多行引用
+
+> 层次嵌套
+>> 层次嵌套
+>>> 层次嵌套
+```
+**效果**
+> 单行引用
+>> 多行引用
+>>> 层次嵌套
+
+##行内标记
+**代码**
+```
+这里是`markdown`的教程
+```
+__效果__
+> 这里是`markdown`的教程
+
+##代码块
+###1.(```)
+**代码**
+```
+	```
+	<div>
+		<div></div>
+	</div>
+	```
+```
+**效果**
+```
+<div>
+	<div></div>
+</div>
+```
+###2.(Tab)
+**代码**
+
+	我是文字。。。  
+		<div>
+			<div></div>
+		</div>
+**效果**
+
+	我是文字。。。
+		<div>
+			<div></div>
+		</div>
+###3.语法高亮
+**代码**
+
+	```javascript
+	var num = 0;
+	for(var i = 0;i < 5; i++{
+		num+=i;
+	}
+	console.log(num);
+	```
+**效果**
+```javascript
+var num = 0;
+for(var i = 0;i < 5; i++{
+	num+=i;
+}
+console.log(num);
+```
+##插入链接
+**代码**
+
+	[百度](http://www.baidu.com)
+**效果**
+> [百度](http://www.baidu.com"sdf")
 
 
-##引用
-- Code(单行)
-```
-	> 单行引用
-```
-- View  
-![](https://github.com/smapley/book/blob/master/markdown/image/markdown_quote1.png?raw=true)
 
-- Code(多行)
-```
-	> 多行引用
-	> 多行应用
-	> 多行引用
-```
-- View  
-![](https://github.com/smapley/book/blob/master/markdown/image/markdown_quote2.png?raw=true)
 
-- Code(层次嵌套)
-```
-	> 层次嵌套
-	>> 层次嵌套
-	>>> 层次嵌套
-```
-- View  
-![](https://github.com/smapley/book/blob/master/markdown/image/markdown_quote3.png?raw=true)
+
+
+
+
+
+
+
+
