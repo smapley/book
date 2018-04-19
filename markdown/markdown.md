@@ -144,6 +144,7 @@ console.log(num);
 **效果**
 > 
 ![](https://github.com/smapley/book/blob/master/markdown/01.png?raw=true '描述')
+![](./01.png 'miaoshu')
 
 ###2.引用式
 **代码**
