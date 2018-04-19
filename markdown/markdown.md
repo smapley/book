@@ -1,6 +1,6 @@
 #Markdown语法
-##一、标题
 
+##一、标题
 ###1.用`#`标记  
 **代码**  
 ```
@@ -26,8 +26,30 @@
 ====
 二级标题
 ----
-  
-##三、引用
+
+
+##二、标记
+**代码**
+```
+这里是`markdown`的教程
+```
+__效果__
+> 这里是`markdown`的教程
+
+
+##三、强调
+**代码**
+
+	**加粗**  __加粗__
+	*斜体*    _斜体_
+	~~删除~~ 
+**效果**
+> **加粗**  
+*斜体*  
+~~删除~~
+
+
+##四、引用
 **代码**
 ```
 > 单行引用 
@@ -45,15 +67,9 @@
 >> 多行引用
 >>> 层次嵌套
 
-##行内标记
-**代码**
-```
-这里是`markdown`的教程
-```
-__效果__
-> 这里是`markdown`的教程
 
-##代码块
+
+##五、代码块
 ###1.(```)
 **代码**
 ```
@@ -93,26 +109,64 @@ __效果__
 	console.log(num);
 	```
 **效果**
-```javascript
+```
 var num = 0;
 for(var i = 0;i < 5; i++{
 	num+=i;
 }
 console.log(num);
 ```
-##插入链接
+
+
+##六、链接
+###1.内链式
 **代码**
 
-	[百度](http://www.baidu.com)
+	[百度](http://www.baidu.com“百度一下”)
 **效果**
-> [百度](http://www.baidu.com"sdf")
+> [百度](http://www.baidu.com“百度一下”)
 
+###2.引用式
+**代码**
 
+	[百度][2]
+	[2]:http://www.baidu.com "百度一下"
+**效果**
+> [百度][2]
+[2]:http://www.baidu.com "百度一下"  
+>
 
+##七、图片
+###1.内链式
+**代码**
 
+	![](https://github.com/smapley/book/blob/master/markdown/01.png?raw=true '描述')
+**效果**
+> 
+![](https://github.com/smapley/book/blob/master/markdown/01.png?raw=true '描述')
 
+###2.引用式
+**代码**
 
+	![name][01]
+	[01]:.https://github.com/smapley/book/blob/master/markdown/01.png?raw=true '描述'
+**效果**
+> ![name][01]
+[01]:https://github.com/smapley/book/blob/master/markdown/01.png?raw=true '描述'
 
+###3.带有链接
+**代码**
+
+	内链式：
+	[![](https://github.com/smapley/book/blob/master/markdown/01.png?raw=true '百度')](http://www.baidu.com)
+	引用式：
+	[![](https://github.com/smapley/book/blob/master/markdown/01.png?raw=true '百度')][5]
+	[5]: http://www.baidu.com
+**效果**
+> [![](https://github.com/smapley/book/blob/master/markdown/01.png?raw=true '百度')](http://www.baidu.com)
+> 
+> [![](https://github.com/smapley/book/blob/master/markdown/01.png?raw=true '百度')][5]
+[5]: http://www.baidu.com
 
 
 
