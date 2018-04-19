@@ -1,6 +1,6 @@
 #Markdown语法  
   
-##一、标题
+##一、标题  
 ###1.用`#`标记  
 **代码**  
 ```
@@ -47,6 +47,49 @@ __效果__
 > **加粗**  
 *斜体*  
 ~~删除~~
+
+
+##四、续表
+###1.有序
+**代码**
+
+	1. one
+	2. two
+	3. three
+
+**效果**
+> 
+1. one
+2. two
+3. three
+
+##2.无序
+**代码**
+
+	* one
+	* two
+	* three
+
+**效果**
+> 
+* one
+* two
+* three
+
+##3.嵌套
+**代码**
+
+	1. one
+		1. one-1
+		2. one-2 
+	2. two
+
+**效果**
+> 
+1. one
+	1. one-1
+	2. one-2 
+2. two
 
 
 ##四、引用
@@ -144,7 +187,6 @@ console.log(num);
 **效果**
 > 
 ![](https://github.com/smapley/book/blob/master/markdown/01.png?raw=true '描述')
-![](./01.png 'miaoshu')
 
 ###2.引用式
 **代码**
