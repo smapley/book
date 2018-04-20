@@ -6,8 +6,9 @@
 * `Markdown HTML Preview` markdown网页预览（静态）
 
 ##配置
-* 修改`Markdown Live Preview`配置 `"markdown_live_preview_on_open": true`
-    >   编辑md文档时自动打开动态预览窗口
+* 编辑md文档时自动打开动态预览窗口
+
+> 修改`Markdown Live Preview`配置 `"markdown_live_preview_on_open": true`
 
 ##快捷键
 * `Alt + M` 打开动态预览
