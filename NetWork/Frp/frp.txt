@@ -1,0 +1,24 @@
+==============================================
+You Server IP      : 140.82.7.229
+Bind port          : 5443
+KCP support        : true
+vhost http port    : 11111
+vhost https port   : 11110
+Dashboard port     : 6443
+Privilege token    : nw1CFBXWUwbEsTkl
+tcp_mux            : true
+Max Pool count     : 50
+Log level          : info
+Log max days       : 3
+Log file           : enable
+==============================================
+frps Dashboard     : http://140.82.7.229:6443/
+Dashboard user     : admin
+Dashboard password : ericfrpnts
+==============================================
+
+frps status manage : frps {start|stop|restart|status|config|version}
+Example:
+  start: frps start
+   stop: frps stop
+restart: frps restart
