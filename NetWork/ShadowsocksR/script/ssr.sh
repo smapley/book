@@ -996,5 +996,3 @@ check_role
 check_pid
 show_menu
 chose_menu
-
-
